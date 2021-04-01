@@ -20,8 +20,8 @@ Guideline: You can copy the value of V to a variable, and consider its cell "emp
 Input Format 
 There will be two lines of input:
 
-*<b>s</b> - the size of the array
-*<b>ar</b> - the sorted array of integers
+1. <b>s</b> - the size of the array
+2. <b>ar</b> - the sorted array of integers
 
 Output Format 
 On each line, output the entire array every time an item is shifted in it.
@@ -33,18 +33,19 @@ Constraints
 TestCases and Operability
 -------------------------
 
-Sample Input
+<b>Sample Input</b>
 ```
 5
 2 4 6 8 3
 ```
-Sample Output
-
+<b>Sample Output</b>
+```
 2 4 6 8 8 
 2 4 6 6 8 
 2 4 4 6 8 
 2 3 4 6 8 
-Explanation
+```
+<b>Explanation</b>
 
 3 is removed from the end of the array.
 In the 1st line 8 > 3, 8 is shifted one cell right. 
@@ -53,7 +54,10 @@ In the 3rd line 4 > 3, 4 is shifted one cell right.
 In the 4th line 2 < 3, 3 is placed at position 2.
 
 Task
+----
 
 Complete the method insertionSort which takes in 1 parameter:
 
 ar - an array with the value V in the right-most cell.
+
+<b>Source.java</b> will have the specifications.
