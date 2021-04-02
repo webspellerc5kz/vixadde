@@ -1,7 +1,7 @@
 Problem Statement
 =================
 
-Inofrmation
+Information
 -----------
 
 <b>Sorting</b> 
