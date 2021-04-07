@@ -6,7 +6,9 @@ import java.util.regex.*;
 
 public class Solution {
     
-    
+    /*
+         I met 100% of the test cases for this project when submitted.
+    */
 
     public static void insertIntoSorted(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
